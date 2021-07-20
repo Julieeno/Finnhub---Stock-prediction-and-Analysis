@@ -26,3 +26,12 @@ Per eseguire correttamente il programma bisogna avere:
 -Scaricare [spark-2.4.5-bin-hadoop2.7.tgz](https://drive.google.com/file/d/18PQVf31rMsvkLAEDDkYlyc6pLEb1pvMR/view?usp=sharing), e posizionarlo nella cartella **spark/src/setup** del progetto;
 
 -Eseguire il file di script *build* 
+$ ./build
+
+<h1 style="font-size:60px">Esecuzione</h1>
+
+Dopo aver seguito tutti i punti della guida, aprire il terminale dentro la cartella principale ed eseguire il file di script *start_gnome*
+$ ./start_gnome
+
+Per chiudere l'esecuzione non basta chiudere i terminali, ma bisogna eseguire un ulteriore comando *stop*
+$ ./stop
