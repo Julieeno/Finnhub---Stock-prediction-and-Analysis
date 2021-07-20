@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Build image
+docker build ./src/ --tag project:spark
+
+echo "Waiting for Kafka to start Spark..."
+
+while ! nc -z 10.0.100.23 9092; do
+  printf '.'
+  sleep 1
+done
+
+echo "Kafka launched"
+
+# Stop previuos container
+docker stop sparkMLlib
+# Remove previuos container 
+docker container rm sparkMLlib
+
+docker run -d -e SPARK_ACTION=spark-submit-python --network tap --name sparkMLlib -it project:spark data_prediction.py org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.5
+
+# Stop previuos container
+docker stop sparkTransferData
+# Remove previuos container 
+docker container rm sparkTransferData
+
+docker run -d -e SPARK_ACTION=spark-submit-python --network tap --name sparkTransferData -it project:spark transfer_data.py org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.5
