@@ -1,0 +1,5 @@
+kafka-python
+bs4
+requests
+lxml
+websocket-client
