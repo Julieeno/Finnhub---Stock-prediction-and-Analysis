@@ -9,7 +9,7 @@ Progetto universitario sviluppato grazie alle conoscenze acquisite seguendo il c
 Stocks Analysis & Prediction si pone l'obiettivo di prevedere il prezzo delle singole azioni del mercato azionario basandosi sui valori reali assunti da queste, grazie ai servizi forniti da **Finnhub.io**.
 
 <h1 style="font-size:60px">Struttura</h1>
-![Alert text](https://github.com/Julieeno/Finnhub---Stock-prediction-and-Analysis/blob/main/doc/diagram.png?raw=true)
+<img width="900"(https://github.com/Julieeno/Finnhub---Stock-prediction-and-Analysis/blob/main/doc/diagram.png?raw=true)></img>
 
 <h1 style="font-size:60px">Guida d'uso e requisiti</h1>
 
