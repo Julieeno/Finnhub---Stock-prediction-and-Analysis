@@ -10,7 +10,7 @@ Stocks Analysis & Prediction si pone l'obiettivo di prevedere il prezzo delle si
 
 <h1 style="font-size:60px">Struttura</h1>
 
-![alt text](https://github.com/Julieeno/Finnhub--Stock-prediction-and-Analysis/edit/main/doc/diagram.png?raw=true)
+![alt text](https://github.com/Julieeno/Finnhub--Stock-prediction-and-Analysis/edit/blob/main/doc/diagram.png?raw=true)
 <h1 style="font-size:60px">Guida d'uso e requisiti</h1>
 
 Per eseguire correttamente il programma bisogna avere:
