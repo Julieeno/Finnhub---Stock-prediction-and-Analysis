@@ -2,7 +2,7 @@
 
 The aim of **Stocks Analysis \& Prediction** is to predict the price of a single stock market, using the real prices that this has, thanks to the services provided by **Finnhub.io**.
 
-<h1 style="font-size:60px">Struttura</h1>
+<h1 style="font-size:60px">Architecture</h1>
 
 ![alt text](doc/diagram.png?raw=true)
 
@@ -36,9 +36,9 @@ In the figure below it is possible to see the final visualization of the data; I
 
 ![alt text](doc/Screenshot_dashboard.png?raw=true)
 
-<h1 style="font-size:60px">Guida d'uso e requisiti</h1>
+<h1 style="font-size:60px">Guide</h1>
 
-Per eseguire correttamente il programma bisogna avere:
+To execute correctly this program the requirements are:
 
 -Docker;
 
@@ -46,20 +46,20 @@ Per eseguire correttamente il programma bisogna avere:
 
 -Netcat
 
--Scaricare [kafka_2.12-2.4.1.tgz](https://drive.google.com/file/d/1MPFeLHL2rLuKNHaG-LnMnCfV5JXyXOQc/view?usp=sharing), e posizionarlo nella cartella **kafca/src/setup** del progetto;
+-Download [kafka_2.12-2.4.1.tgz](https://drive.google.com/file/d/1MPFeLHL2rLuKNHaG-LnMnCfV5JXyXOQc/view?usp=sharing), and locate it in the folder **kafca/src/setup** of the project;
 
--Scaricare [spark-2.4.5-bin-hadoop2.7.tgz](https://drive.google.com/file/d/18PQVf31rMsvkLAEDDkYlyc6pLEb1pvMR/view?usp=sharing), e posizionarlo nella cartella **spark/src/setup** del progetto;
+-Download [spark-2.4.5-bin-hadoop2.7.tgz](https://drive.google.com/file/d/18PQVf31rMsvkLAEDDkYlyc6pLEb1pvMR/view?usp=sharing), and locate it in the folder **spark/src/setup** of the project;
 
--Eseguire il file di script *build* 
+-Execute the file script *build* 
 
     $ ./build
 
-<h1 style="font-size:60px">Esecuzione</h1>
+<h1 style="font-size:60px">Execution</h1>
 
-Dopo aver seguito tutti i punti della guida, aprire il terminale dentro la cartella principale ed eseguire il file di script *start_gnome*
+When the requirements are satisfied, you just need to open the terminal from the main folder of the project and execute the file script *start_gnome*
 
     $ ./start_gnome
 
-Per chiudere l'esecuzione non basta chiudere i terminali, ma bisogna eseguire un ulteriore comando *stop*
+To kill the execution of the program, it is not enough to close the terminals, it is necessary to execute the command *stop*
 
     $ ./stop
