@@ -12,7 +12,7 @@ Logstash's job consists in collect all the data specified in the **request** of 
 
 Data are taken from Kafka and these have been sorted in a Data Frame, to make the elaboration easier. These are the chosen features:
 
-    -**Name** of the company;
+-**Name** of the company;
 
 -**Symbol** that represents the company in the market.
 
@@ -52,14 +52,14 @@ Per eseguire correttamente il programma bisogna avere:
 
 -Eseguire il file di script *build* 
 
-$ ./build
+    $ ./build
 
 <h1 style="font-size:60px">Esecuzione</h1>
 
 Dopo aver seguito tutti i punti della guida, aprire il terminale dentro la cartella principale ed eseguire il file di script *start_gnome*
 
-$ ./start_gnome
+    $ ./start_gnome
 
 Per chiudere l'esecuzione non basta chiudere i terminali, ma bisogna eseguire un ulteriore comando *stop*
 
-$ ./stop
+    $ ./stop
