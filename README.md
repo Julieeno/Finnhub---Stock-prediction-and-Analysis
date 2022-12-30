@@ -11,13 +11,21 @@ It has been developed a file wrapper in Python that uses the libraries **socket*
 Logstash's job consists in collect all the data specified in the **request** of the **wrapper file** and submitting these to **Kafka**.
 
 Data are taken from Kafka and these have been sorted in a Data Frame, to make the elaboration easier. These are the chosen features:
+
     -**Name** of the company;
-    -**Symbol** that represents the company in the market.
-    -**LasPrice** that is the value of a stock of the company at the moment that the program is passing the information;
-    -**Time**, exact date and time of the moment when the information is passed;
-    -**Country** of origin of the company;
-    -**WebUrl** that is a direct link to the official page of the company;
-    -**MarketCap** i.e. the capitalisation of the stock on the market;
+
+-**Symbol** that represents the company in the market.
+
+-**LasPrice** that is the value of a stock of the company at the moment that the program is passing the information;
+
+-**Time**, exact date and time of the moment when the information is passed;
+
+-**Country** of origin of the company;
+
+-**WebUrl** that is a direct link to the official page of the company;
+
+-**MarketCap** i.e. the capitalisation of the stock on the market;
+
 To predict the price of a stock has been applied the **Linear Regression** that estimates the price relying on a dependent variable.
 where $m$ and $q$ are two parameters that the function **LinearRegression**, imported from the library **spark.ml.regression**, optimizes autonomously.
 It has been implemented also the **Root Squared Error** function, to calculate the distance between the estimated values and the real values.
