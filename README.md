@@ -1,12 +1,13 @@
 <h1 style="font-size:100px">Stocks Analysis & Prediction</h1>
-<h1 style="font-size:60px">Progetto universitario inerente alla materia Technologies for Advanced Programming</h1>
-<h1 style="font-size:38px">|Giuliano Lazzara 
-    
-| Matricola: X81000678</h1>
+
+The aim of **Stocks Analysis \& Prediction** is to predict the price of a single stock market, using the real prices that this has, thanks to the services provided by **Finnhub.io**.
+
 
 Progetto universitario sviluppato grazie alle conoscenze acquisite seguendo il corso di **Technologies for Advanced Programming**, del corso triennale d'informatica dell'**Università degli Studi di Catania**.  
 
 Stocks Analysis & Prediction si pone l'obiettivo di prevedere il prezzo delle singole azioni del mercato azionario basandosi sui valori reali assunti da queste, grazie ai servizi forniti da **Finnhub.io**.
+![alt text](doc/diagram.png?raw=true)
+
 
 <h1 style="font-size:60px">Struttura</h1>
 
